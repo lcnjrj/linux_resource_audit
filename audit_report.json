@@ -1,39 +1,37 @@
 {
-    "timestamp": "2026-01-12T01:47:58.844084",
+    "timestamp": "2026-01-12T09:17:08.974724",
     "risk_level": [
-        "SWAP_CRITICAL",
         "DISK_CRITICAL:/",
         "DISK_CRITICAL:/var",
         "DISK_CRITICAL:/home"
     ],
     "analysis": [
-        "Press\u00e3o de mem\u00f3ria detectada. O sistema opera pr\u00f3ximo ao limite, com risco de congelamentos e lat\u00eancia elevada.",
         "A parti\u00e7\u00e3o / est\u00e1 acima de 80% de uso, o que pode causar falhas de escrita, travamentos de servi\u00e7os e degrada\u00e7\u00e3o geral.",
         "A parti\u00e7\u00e3o /var est\u00e1 acima de 80% de uso, o que pode causar falhas de escrita, travamentos de servi\u00e7os e degrada\u00e7\u00e3o geral.",
         "A parti\u00e7\u00e3o /home est\u00e1 acima de 80% de uso, o que pode causar falhas de escrita, travamentos de servi\u00e7os e degrada\u00e7\u00e3o geral."
     ],
     "memory": {
         "mem_total_gb": 6.16,
-        "mem_used_gb": 3.8,
-        "mem_used_pct": 72.3,
+        "mem_used_gb": 3.58,
+        "mem_used_pct": 69.1,
         "swap_total_gb": 0.54,
-        "swap_used_pct": 98.3
+        "swap_used_pct": 0.6
     },
     "disks": {
         "/": {
             "total_gb": 24.57,
-            "used_gb": 20.49,
-            "used_pct": 88.0
+            "used_gb": 20.44,
+            "used_pct": 87.7
         },
         "/var": {
             "total_gb": 24.57,
-            "used_gb": 20.49,
-            "used_pct": 88.0
+            "used_gb": 20.44,
+            "used_pct": 87.7
         },
         "/home": {
             "total_gb": 5.64,
-            "used_gb": 4.98,
-            "used_pct": 93.4
+            "used_gb": 4.91,
+            "used_pct": 92.0
         }
     },
     "recommendations": {
@@ -60,11 +58,6 @@
         }
     },
     "log_indicators": [
-        "jan 08 03:45:05 brain-a320ms2h systemd[1]: Listening on systemd-oomd.socket - Userspace Out-Of-Memory (OOM) Killer Socket.",
-        "jan 08 05:15:33 brain-a320ms2h systemd-journald[281]: Under memory pressure, flushing caches.",
-        "jan 08 05:15:33 brain-a320ms2h systemd-journald[281]: Under memory pressure, flushing caches.",
-        "jan 08 11:55:28 brain-a320ms2h systemd-journald[281]: Under memory pressure, flushing caches.",
-        "jan 08 11:55:31 brain-a320ms2h systemd-journald[281]: Under memory pressure, flushing caches.",
-        "jan 08 16:35:05 brain-a320ms2h systemd-journald[281]: Under memory pressure, flushing caches."
+        "jan 12 07:19:08 brain-a320ms2h systemd[1]: Listening on systemd-oomd.socket - Userspace Out-Of-Memory (OOM) Killer Socket."
     ]
 }
