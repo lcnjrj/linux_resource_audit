@@ -31,6 +31,8 @@ Funcione sem dependências externas ou agentes pesados
 
 Arquitetura da Solução
 
+[!Relátorio no terminal](https://github.com/lcnjrj/linux_resource_audit/tree/main/imagens)
+
 O projeto foi implementado como um pipeline ETL em Python:
 
 🔹 Extract
