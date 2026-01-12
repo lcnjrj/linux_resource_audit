@@ -1,3 +1,11 @@
+# linux_resource_audit-v04.py
+# O objetivo deste projeto foi detectar sinais precoces de exaustão de recursos, registrar histórico diário e gerar recomendações técnicas objetivas.
+# Author: Luciana Jorge de Faria (@lcnjrj)
+# Version: 4
+# License: MIT
+# Repository: https://github.com/lcnjrj/linux_resource_audit
+################################################################################
+
 #!/usr/bin/env python3
 import psutil
 import subprocess
